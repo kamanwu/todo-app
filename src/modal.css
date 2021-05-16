@@ -1,0 +1,99 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.modal-main .closeButton {
+  position:absolute;
+  right: -18px;
+  top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #666;
+  border: 2px #fff solid;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-main .modalForm {
+  padding: 20px;
+  width: 60vw;
+}
+
+.modal-main .twoColInput {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-bottom: 15px;
+}
+
+.modal-main .oneColInput {
+  margin-bottom: 15px;
+}
+.modal-main .actionButton {
+  text-align: center;
+}
+
+.modal-main label {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.modal input,
+.modal textarea,
+.modal select {
+  width: 100%;
+  display: block;
+  margin-top: 2px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+
+.modal button {
+  padding: 6px 50px;
+  font-size: 16px;
+  margin: 10px 5px 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+  border-radius: 4px;
+  display: inline-block;
+}
+.modal button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
