@@ -57,7 +57,6 @@ const TodoItem = (props) => {
 
 TodoItem.propTypes = {
     todo: PropTypes.object.isRequired,
-    key: PropTypes.number.isRequired,
     onDeleteTodo: PropTypes.func.isRequired,
     onDeleteTask: PropTypes.func.isRequired,
     onSetModalTodoId: PropTypes.func.isRequired,

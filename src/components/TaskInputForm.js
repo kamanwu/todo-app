@@ -95,7 +95,6 @@ const TaskInputForm = (props) => {
 
 TaskInputForm.propTypes = {
     onSubmit: PropTypes.func.isRequired,
-    key: PropTypes.string,
     label: PropTypes.string,
     description: PropTypes.string,
     start: PropTypes.string,

@@ -48,7 +48,6 @@ const TodoInputForm = (props) => {
 
 TodoInputForm.propTypes = {
     onSubmit: PropTypes.func.isRequired,
-    key: PropTypes.string,
     name: PropTypes.string,
     description: PropTypes.string,
 };

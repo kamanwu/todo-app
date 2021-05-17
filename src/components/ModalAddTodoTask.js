@@ -17,7 +17,7 @@ const ModalAddTodoTask = (props) => {
    return (
       <div className={showHideClassName}>
          <section className="modal-main">
-         <div className="closeButton" onClick={handleColse}>x</div>
+            <div className="closeButton" onClick={handleColse}>x</div>
             <TaskInputForm
                key={props.todoId}
                onSubmit={handleAddTodoTask}
